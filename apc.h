@@ -14,8 +14,14 @@ void insert_at_last(Dlist **head, Dlist **tail, int data);
 void create_list(char *str, Dlist **head, Dlist **tail);
 
 // functions for addition and subtraction
+// functions for arithmetic operations
+
 void addition(Dlist *tail1, Dlist *tail2, Dlist **headR, Dlist **tailR);
 
 void subtraction(Dlist *tail1, Dlist *tail2, Dlist **headR, Dlist **tailR);
+
+void multiplication(Dlist *tail1, Dlist *tail2, Dlist **headR, Dlist **tailR);
+
+void division(Dlist *tail1, Dlist *tail2, Dlist **headR, Dlist **tailR);
 
 #endif

@@ -34,6 +34,14 @@ int main(int argc, char *argv[])
     {
         subtraction(tail1, tail2, &headR, &tailR);
     }
+    else if (argv[2][0] == 'x' || argv[2][0] == 'X')
+    {
+        multiplication(tail1, tail2, &headR, &tailR);
+    }
+    else if (argv[2][0] == '/')
+    {
+        division(tail1, tail2, &headR, &tailR);
+    }
     else
     {
         printf("Invalid operator\n");
